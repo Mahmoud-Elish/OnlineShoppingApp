@@ -30,23 +30,23 @@ This project implements a simple online shopping application with the following 
 - **Tech & Design:** C#, OOP, DI, N-tiers, ASP.Net web API, Entity Framework (EF) and LINQ.
 
 ## Packages
-StackExchange.Redis
-Microsoft.AspNetCore.Authentication.JwtBearer
-Microsoft.Extensions.Configuration.Binder
-Microsoft.EntityFrameworkCore.Proxies
-Microsoft.Aspnetcore.Identity.EntityFrameworkCore
-Microsoft.Aspnetcore.Identity
-Microsoft.EntityFrameworkCore
-Microsoft.EntityFrameworkCore.SqlServer
-Microsoft.EntityFrameworkCore.Tools
-Microsoft.EntityFrameworkCore.Design
+- StackExchange.Redis.
+- Microsoft.AspNetCore.Authentication.JwtBearer.
+- Microsoft.Extensions.Configuration.Binder.
+- Microsoft.EntityFrameworkCore.Proxies.
+- Microsoft.Aspnetcore.Identity.EntityFrameworkCore.
+- Microsoft.Aspnetcore.Identity.
+- Microsoft.EntityFrameworkCore.
+- Microsoft.EntityFrameworkCore.SqlServer.
+- Microsoft.EntityFrameworkCore.Tools.
+- Microsoft.EntityFrameworkCore.Design.
 
 # To Install and Run
-Check packages installing.
-Change ConnectionStrings of your database in appsettings.json.
-In package manager console Run two commands.
-=> add-migration [name of migration].
-=> update-database.
+- Check packages installing.
+- Change ConnectionStrings of your database in appsettings.json.
+- In package manager console Run two commands.
+-=> add-migration [name of migration].
+-=> update-database.
 ---
 
 ## Features and API Endpoints
